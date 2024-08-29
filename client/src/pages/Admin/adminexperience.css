@@ -1,0 +1,33 @@
+.sup{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+ /* justify-content: space-around;
+ align-items: center; */
+  /* flex-wrap: wrap; */
+}
+.parent{
+  height: 300px;
+  width: 405px;
+  padding: 20px;
+  position: relative;
+}
+.child{
+  width: 200px;
+  position: absolute;
+  bottom:20px;
+  right:20px; 
+  display: flex;
+  justify-content: space-around;
+}
+
+.yes{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bat{
+  margin-left: 1000px;
+
+}
